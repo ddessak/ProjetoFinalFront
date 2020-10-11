@@ -1,0 +1,198 @@
+@media only screen and (min-width: 1000px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .clear{
+        clear: both;
+    }
+    #menu{
+        display: none;
+    }
+    .image img{
+        width: 100px;
+        float: right;
+        margin-right: 2%;
+        margin-top: 100%;
+
+    }
+    #menuSuspense{
+        width: 100%;
+        position: static;
+        display: block;
+        background-color: #3a0463;
+        
+    }
+    .imageSuspense img{
+        width: 30px;
+        margin-left: 30px;
+    }
+    .menuSuspense a{
+        text-decoration: none;
+        color: white;
+        float: right;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        position: relative;
+        
+    }
+    .menuSuspense a:hover{
+        color:#8624d1;
+    }
+    #cadastro fieldset {
+        width: 35%;
+        margin-left: 25%;
+        margin-top: -5%;
+    }
+    .cadastro .button{
+        text-align: center;
+
+    }
+
+    .submenu ul {
+        width: 150px;
+        height: 160px;
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 10px;
+        margin-top: 0%;
+    
+    }
+    .submenu ul a{
+        text-decoration: none;
+        color: white;
+    }
+    .submenu ul li{
+        margin-top: 15px;
+        text-align: center;
+        margin-left: -50px;
+    }
+    #login{
+        display: none;
+    }
+    
+    form fieldset{
+        width: 30%;
+        border: 2px solid #0f041a;
+        margin-left: 35%;
+        margin-top:10%;
+
+    }
+    form fieldset a{
+        font-size: 12px;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        
+
+    }
+    form fieldset img{
+        width: 80px;
+        margin-bottom: -2%;
+        margin-left: 5%;
+    }
+    form fieldset input{
+        width: 50%;
+        height: 30px;
+        margin-top: 10px;
+        border-radius: 5px;
+        margin-left: 15px;
+        text-align: center;
+
+        
+    }
+    form fieldset input[type=text]{
+        margin-left: 19px;
+    }
+    form fieldset input[type=submit]{
+        width: 25%;
+        transition: 2s;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        cursor:pointer;
+    }
+    
+    form fieldset input[type=submit]:hover{
+        background-color: white;
+        color: #6e16c4;
+    }
+    form  fieldset p{
+        font-size: 15px;
+        color:aliceblue;
+       }
+    .cadastro .imageLogin img{
+        margin-left: 5%;
+    }
+    .imageLogin img{
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 45px;
+        
+        
+    }
+    .fechar img{
+        width: 25px;
+        cursor: pointer;
+        margin-right: 2%;
+        margin-top: 1%
+    }
+    .rede a img{
+        width: 30px;
+        margin-top: -12%;
+        margin-left: 15px;
+        margin-bottom: 0.5%;
+    }
+
+    input[type=number]::-webkit-inner-spin-button { 
+        -webkit-appearance: none;
+    }
+    a:hover{
+        color:red;
+
+    }
+    #recovery{
+        display: none;
+        position: relative;
+    }
+    .recovery fieldset{
+        width: 40%;
+    }
+    .recovery fieldset form input{
+        width: 40%;
+        text-align: center;
+    }
+    .recovery  .imageLogin img{
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #login .eye img{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        margin-left: 20%;
+        margin-top: -27px;
+        cursor: pointer;
+    }
+
+    .cont a{
+        background-color:rgba(82, 15, 148,0.2);
+        border: 0;
+        color:white;
+        margin-bottom: -8px;
+        text-align: left;
+    
+    }
+    .cont a:hover{
+        color:#5f0194;
+    }

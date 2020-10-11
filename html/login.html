@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Login </title> 
+        <link rel="shortcut icon" href="../image/icons8-login-64.png">
+        <link rel="stylesheet" href="../css/login.css">
+    </head>
+
+    <body>
+        <div class="return" id="return"> 
+            <a href="../index.html"><img src="../image/icons8-return-64.png" alt=""></a>
+        </div>
+        <div id="login" class="login">
+            
+
+            <form action="">
+                    
+                <fieldset>
+
+                    <div class="button">
+                        <button href="" onclick="login1()">Login</button> 
+                        <button onclick="cadastro()"> Cadastro</button>
+                    </div>
+                    
+                    <img src="../image/icons8-user-64.png" alt="">
+                    <br>
+                    <div class="imageLogin"><img src="../image/icons8-login-64.png" alt=""></div>
+                    <input type="text" name="user" placeholder="Usuário" required >
+                    <br>
+                    <div class="imageLogin"><img src="../image/icons8-forgot-password-64.png" alt=""></div>
+                    <input type="password"  id="eye" name="password" placeholder="Senha" required>
+                    <div class="eye" onclick="eye()" ><img src="../image/sleepy-eyes.png" alt=""></div>
+                    <a onclick="recovery()">Esqueceu a senha? </a>
+                    <br>
+                    <input type="submit" value="Entrar">
+                    <p> ou </p>
+                    <div class="rede" id="rede">
+                        <a href=""> <img src="../image/icons8-facebook-64.png" alt=""></a>
+                        <a href=""><img src="../image/icons8-google-64.png" alt=""> </a>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div id="cadastro" class="cadastro" > 
+            
+          
+            <form action="">
+                
+
+                <fieldset>
+                    <div class="button">
+                        <button href="" onclick="login1()">Login</button> 
+                        <button onclick="cadastro()"> Cadastro</button>
+                    </div>
+
+                    <img src="../image/icons8-add-user-group-man-man-64.png" alt="">
+
+                    
+                    <div class="imageLogin"><img src="../image/icons8-login-64.png" alt=""></div>
+                    <input type="text" name="name" placeholder="Nome" required>
+
+                    <div class="imageLogin"><img src="../image/icons8-login-64.png" alt=""></div>
+                    <input type="number" name="number" placeholder="CPF" required>
+
+                    <div class="imageLogin"><img src="../image/phone.png" alt=""></div>
+                    <input type="number" name="name" placeholder="Telefone" required>
+
+                    <div class="imageLogin"><img src="../image/add-open-envelope.png" alt=""></div>
+                    <input type="text" name="name" placeholder="E-mail" required>
+
+                    <div class="imageLogin"><img src="../image/icons8-forgot-password-64.png" alt=""></div>
+                    <input type="password" name="password" placeholder="Senha" required>
+                    <div class="eye" onclick="eye()" ><img src="../image/sleepy-eyes.png" alt=""></div>
+
+                    <div class="imageLogin"><img src="../image/icons8-forgot-password-64.png" alt=""></div>
+                    <input type="password" name="password" placeholder="Confirme a senha" required>
+                    <div class="eye" onclick="eye()" ><img src="../image/sleepy-eyes.png" alt=""></div>
+                    
+                    <input type="submit" value="Cadastrar">
+                    <p> ou </p>
+                    <div class="rede" id="rede">
+                        <a href=""> <img src="../image/icons8-facebook-64.png" alt=""></a>
+                        <a href=""><img src="../image/icons8-google-64.png" alt=""> </a>
+                    </div>
+                </fieldset>
+            </form>
+            <div class="clear"></div>
+
+        </div>
+        
+        <div class="recovery" id="recovery">
+            <form action="">
+                <fieldset>
+                    
+                        <div class="fechar" id="fechar" onclick="fecharRecovery()"> <img src="../image/icons8-multiply-64.png" alt=""> </div>
+                        <div class="imageLogin"><img src="../image/email.png" alt=""></div>
+                        <input type="text" name="email" placeholder="Insira seu e-mail" required>
+                        <input type="submit" value="enviar">
+                    
+                </fieldset>
+            </form>
+        </div>
+            
+        <script type="text/javascript"  src="../js/js.js"></script>
+    </body>
+</html>
